@@ -6,8 +6,8 @@ body {
     background-color: #F0F2F5;
 }
 
+/* Header */
 .wrapper .header {
-    padding: 5px 10px;
     display: flex;
     justify-content: space-between;
     position: sticky;
@@ -17,10 +17,13 @@ body {
     box-shadow: 0 5px 8px -9px rgba(0, 0, 0, 0.75);
 }
 
+/* Header Left */
 .wrapper .header .header-left {
+    width: 20%;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    padding: 5px 10px;
 }
 
 .wrapper .header .header-left .search {
@@ -45,7 +48,7 @@ body {
 }
 
 .wrapper .header .header-left .search .icon-search object svg {
-    fill: #606770;
+    fill: #606770 !important;
 }
 
 .wrapper .header .header-left .search input {
@@ -57,4 +60,73 @@ body {
 .wrapper .header .header-left .search input::placeholder {
     font-size: 14px;
     color: #606770;
+}
+
+/* Header Middle */
+.wrapper .header .header-middle {
+    width: 60%;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+}
+
+.wrapper .header .header-middle .main-menu {
+    display: flex;
+    align-items: center;
+    padding: 0 5px;
+    cursor: pointer;
+}
+
+.wrapper .header .header-middle .main-menu a {
+    color: #606770;
+    padding: 11px 52px;
+}
+
+.wrapper .header .header-middle .main-menu .affter-active {
+    display: none;
+}
+
+.wrapper .header .header-middle .active {
+    border-bottom: 4px solid #1877F2;
+}
+
+.wrapper .header .header-middle .active a {
+    color: #1877F2;
+}
+
+.wrapper .header .header-middle .active .before-active {
+    display: none;
+}
+
+.wrapper .header .header-middle .active .affter-active {
+    display: block;
+}
+
+/* Header Right */
+.wrapper .header .header-right {
+    width: 20%;
+    display: flex;
+    justify-content: end;
+}
+
+.wrapper .header .header-right .right-menu {
+    padding: 7px 5px;
+}
+
+.wrapper .header .header-right .right-menu:hover {
+    cursor: pointer;
+}
+
+.wrapper .header .header-right .right-menu .icon-right {
+    border-radius: 50%;
+    padding: 7px 10px;
+    background-color: #e4e6eb;
+}
+
+.wrapper .header .header-right .active {
+    color: #1877F2; 
+}
+
+.wrapper .header .header-right .active .icon-right {
+    background-color: #e5f1fd;
 }
