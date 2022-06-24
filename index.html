@@ -13,7 +13,7 @@
     <div class="wrapper">
         <!-- Header -->
         <div class="header">
-            <!-- Left -->
+            <!-- Header Left -->
             <div class="header-left">
                 <object class="icon-fb" data="./public/icon/i-fb-48.svg" ></object>
                 <div class="search">
@@ -23,7 +23,7 @@
                     <input type="text" placeholder="Tìm kiếm trên Facebook">
                 </div>
             </div>
-            <!-- Middle -->
+            <!-- Header Middle -->
             <div class="header-middle">
                 <div class="main-menu active" id="home-page" onclick="mainMenuClick(this)">
                     <a href="#">
@@ -66,7 +66,7 @@
                     </a>
                 </div>
             </div>
-            <!-- Right -->
+            <!-- Header Right -->
             <div class="header-right">
                 <div class="right-menu" onclick="rightMenuClick(this)">
                     <div class="icon-right">
@@ -109,12 +109,14 @@
         <!-- Close Header -->
         <!-- Content -->
         <div class="content">
+            <!-- Content Left -->
             <div class="content-left">
+                <!-- Access -->
                 <div class="access">
                     <ul>
                         <li>
                             <img src="/public/images/man.png" width="28" height="28"/>
-                            <div class="title">My name</div>
+                            <div class="title">Tên của tôi</div>
                         </li>
                         <li>
                             <img src="/public/images/friends.png" width="28" height="28"/>
@@ -136,6 +138,60 @@
                             <img src="/public/images/group.png" width="28" height="28"/>
                             <div class="title">Nhóm</div>
                         </li>
+                        <li class="access-more">
+                            <img src="/public/images/campain.png" width="28" height="28"/>
+                            <div class="title">Chiến dịch gây quỹ</div>
+                        </li>
+                        <li class="access-more">
+                            <img src="/public/images/game.png" width="28" height="28"/>
+                            <div class="title">Chơi game</div>
+                        </li>
+                        <li class="access-more">
+                            <img src="/public/images/GJ4EaivDaSj.png" width="28" height="28"/>
+                            <div class="title">Facebook pay</div>
+                        </li>
+                        <li class="end" id="btn-more" onclick="moreAccessContent(this)">
+                            <div class="arrow">
+                                <i class="fa-solid fa-angle-down"></i>
+                            </div>
+                            <div class="title">Xem thêm</div>
+                        </li>
+                        <li class="end" id="btn-less" onclick="lessAccessContent(this)">
+                            <div class="arrow">
+                                <i class="fa-solid fa-angle-up"></i>
+                            </div>
+                            <div class="title">Ẩn bớt</div>
+                        </li>
+                        <li class="border-access"></li>
+                    </ul>
+                </div>
+                <!-- Shortcuts -->
+                <div class="shortcuts" onmouseover="showEditButton()" onmouseleave="hideEditButton()">
+                    <div class="name-tag">
+                        <h3>Lối tắt của bạn</h3>
+                        <a id="btn-edit" href="#">Chỉnh sửa</a>
+                    </div>  
+                    <ul>
+                        <li>
+                            <img src="/public/images/mu.jpg" width="28" height="28"/>
+                            <div class="title">Manchester United Việt Nam</div>
+                        </li>
+                        <li>
+                            <img src="/public/images/python.jpg" width="28" height="28"/>
+                            <div class="title">Lập trình Python</div>
+                        </li>
+                        <li class="access-more">
+                            <img src="/public/images/naraka.jpg" width="28" height="28"/>
+                            <div class="title">NARAKA: BLADEPOINT Việt Nam Community</div>
+                        </li>
+                        <li class="access-more">
+                            <img src="/public/images/ruby.jpg" width="28" height="28"/>
+                            <div class="title">Ruby On Rails Việt Nam</div>
+                        </li>
+                        <li class="access-more">
+                            <img src="/public/images/paint.jpg" width="28" height="28"/>
+                            <div class="title">Học vẽ truyền thần</div>
+                        </li>
                         <li class="end">
                             <div class="arrow">
                                 <i class="fa-solid fa-angle-down"></i>
@@ -144,10 +200,12 @@
                         </li>
                     </ul>
                 </div>
-                <div class="shortcuts">Lối tắt của bạn</div>
+                <!-- Footer -->
                 <div class="footer">footer</div>
             </div>
+            <!-- Content Middle -->
             <div class="content-middle">middle</div>
+            <!-- Content Right -->
             <div class="content-right">right</div>
         </div>
         <!-- Close Content-->

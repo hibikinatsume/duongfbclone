@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    font-family: Segoe UI Historic, Segoe UI, Helvetica, Arial, sans-serif;
+    font-family: system-ui;
 }
 
 .wrapper {
@@ -156,13 +156,15 @@ body {
     width: 20%;
 }
 
-.wrapper .content .content-left .access ul {
+.wrapper .content .content-left .access ul,
+.wrapper .content .content-left .shortcuts ul {
     list-style: none;
     padding: 10px 8px;
     margin: 0;
 }
 
-.wrapper .content .content-left .access ul li {
+.wrapper .content .content-left .access ul li,
+.wrapper .content .content-left .shortcuts ul li {
     display: flex;
     padding: 11px 7px;
     font-family: system-ui;
@@ -172,22 +174,72 @@ body {
     width: 100%;
 }
 
-.wrapper .content .content-left .access ul li:hover {
+.wrapper .content .content-left .access ul li:hover,
+.wrapper .content .content-left .shortcuts ul li:hover {
     cursor: pointer;
     background-color: #e4e6eb;
     border-radius: 10px;
 }
 
-.wrapper .content .content-left .access ul li .title {
+.wrapper .content .content-left .access ul li .title,
+.wrapper .content .content-left .shortcuts ul li .title {
     padding: 3px 13px;
 }
 
-.wrapper .content .content-left .access ul li .arrow {
+.wrapper .content .content-left .access ul li .arrow,
+.wrapper .content .content-left .shortcuts ul li .arrow {
     background-color: #e4e6eb;
     padding: 4px 8px;
     border-radius: 50%;
 }
 
-.wrapper .content .content-left .access ul .end {
+.wrapper .content .content-left .access ul .border-access {
     border-bottom: 1px solid silver;
+    padding: 5px 0px;
+}
+
+.wrapper .content .content-left .access ul .border-access:hover {
+    cursor: none;
+    background-color: #F0F2F5;
+    border-radius: 0px;
+}
+
+
+.wrapper .content .content-left .access ul .access-more,
+.wrapper .content .content-left .access ul #btn-less {
+    display: none;
+}
+
+.wrapper .content .content-left .access ul .access-more.active {
+    display: flex;
+}
+
+.wrapper .content .content-left .shortcuts .name-tag {
+    display: flex;
+    justify-content: space-between;
+}
+
+.wrapper .content .content-left .shortcuts .name-tag h3 {
+    padding-left: 15px;
+    margin: 0;
+    font-size: 1.0625rem;
+    color: #65676b;
+    font-weight: 600;
+    padding: 10px 15px;
+}
+
+.wrapper .content .content-left .shortcuts .name-tag a {
+    padding: 10px 10px;
+    text-decoration: none;
+    color: #1877F2;
+    display: none;
+}
+
+.wrapper .content .content-left .shortcuts .name-tag a:hover {
+    background-color: #e4e6eb;
+    border-radius: 5px;
+}
+
+.wrapper .content .content-left .shortcuts ul li img {
+    border-radius: 5px;
 }
