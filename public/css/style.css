@@ -7,6 +7,33 @@ body {
     background-color: #F0F2F5;
 }
 
+/* Scrollbar */
+/* width */
+::-webkit-scrollbar {
+    width: 7px;
+}
+  
+/* Track */
+::-webkit-scrollbar-track {
+    background: #F0F2F5;  
+    border-radius: 5px;
+}
+   
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: silver; 
+    border-radius: 5px;
+}
+  
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: silver;
+}
+
+::-webkit-scrollbar-thumb:hover ::-webkit-scrollbar-track {
+    width: 10px;
+}
+
 /* Header */
 .wrapper .header {
     display: flex;
@@ -216,6 +243,12 @@ body {
 /* Content-left */
 .wrapper .content .content-left {
     width: 20%;
+    height:760px;
+    overflow: hidden;
+}
+
+.wrapper .content .content-left:hover {
+    overflow-y: scroll;
 }
 
 .wrapper .content .content-left .access ul,
