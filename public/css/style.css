@@ -78,6 +78,68 @@ body {
     cursor: pointer;
 }
 
+.wrapper .header .header-middle .main-menu .text,
+.wrapper .header .header-right .right-menu .text {
+    visibility: hidden;
+    background-color: #616366;
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px 10px;
+    position: absolute;
+    z-index: 1;
+    font-size: 13px;
+    top: 105%;
+}
+
+.wrapper .header .header-middle .main-menu .text-home {
+    left: 28.4%;
+}
+
+.wrapper .header .header-middle .main-menu .text-watch {
+    left: 38.9%;
+}
+
+.wrapper .header .header-middle .main-menu .text-market {
+    left: 48%;
+}
+
+.wrapper .header .header-middle .main-menu .text-group {
+    left: 59%;
+}
+
+.wrapper .header .header-middle .main-menu .text-game {
+    left: 68.5%;
+}
+
+.wrapper .header .header-right .right-menu .text-menu {
+    right: 10.4%;
+}
+
+.wrapper .header .header-right .right-menu .text-mess {
+    right: 5.5%;
+}
+
+.wrapper .header .header-right .right-menu .text-noti {
+    right: 2%;
+}
+
+.wrapper .header .header-right .right-menu .text-info {
+    right: 0.2%;
+}
+
+.wrapper .header .header-middle #home-page:hover .text-home,
+.wrapper .header .header-middle #watch-page:hover .text-watch,
+.wrapper .header .header-middle #market-page:hover .text-market,
+.wrapper .header .header-middle #group-page:hover .text-group,
+.wrapper .header .header-middle #game-page:hover .text-game,
+.wrapper .header .header-right #menu-page:hover .text-menu,
+.wrapper .header .header-right #mess-page:hover .text-mess,
+.wrapper .header .header-right #noti-page:hover .text-noti,
+.wrapper .header .header-right #info-page:hover .text-info {
+    visibility: visible;
+}
+
 .wrapper .header .header-middle .main-menu a {
     color: #606770;
     padding: 11px 52px;
