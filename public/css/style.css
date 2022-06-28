@@ -239,7 +239,7 @@ body {
 /* Content */
 .wrapper .content {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 /* Content-left */
@@ -247,6 +247,8 @@ body {
     width: 23.5%;
     height:769px;
     overflow: hidden;
+    position: fixed;
+    left: 0;
 }
 
 .wrapper .content .content-left:hover {
@@ -459,7 +461,7 @@ body {
     border: 1px solid silver;
     color: silver;
     border-radius: 50%;
-    padding: 7px 10px;
+    padding: 8px 10px;
     background-color: white;
     top: 18%;
     left: 73.1%;
@@ -509,7 +511,7 @@ body {
 .wrapper .content .content-middle .create .text .btn {
     border-radius: 20px;
     background-color: #e4e6eb;
-    padding: 8px 22px;
+    padding: 11px 22px;
     width: 100%;
     color: #65676b;
 }
@@ -562,7 +564,7 @@ body {
 
 .wrapper .content .content-middle .create .option .btn-option .title {
     color: #65676b;
-    padding: 2px;
+    padding: 3px 2px;
     font-size: 15px;
     font-weight: 600;
     margin-left: 5px;
@@ -580,6 +582,7 @@ body {
 
 .wrapper .content .content-middle .room {
     padding: 20px 25px;
+    padding-bottom: 0px;
 }
 
 .wrapper .content .content-middle .room .container {
@@ -607,6 +610,7 @@ body {
     font-size: 15px;
     font-weight: 600;
     margin-left: 10px;
+    padding-top: 2px;
 }
 
 .wrapper .content .content-middle .room .container img {
@@ -618,13 +622,19 @@ body {
 }
 
 .wrapper .content .content-middle .post {
-    padding: 20px 25px;
+    padding: 0px 25px;
+    padding-top: 20px;
 }
 
 .wrapper .content .content-middle .post .container {
     background-color: white;
     box-shadow: 0 5px 8px -9px rgb(0 0 0 / 75%);
     border-radius: 10px;
+}
+
+.wrapper .content .content-middle .post .container .post-title {
+    display: flex;
+    justify-content: space-between;
 }
 
 .wrapper .content .content-middle .post .container .post-title .title-avt {
@@ -650,7 +660,140 @@ body {
     font-size: 13px;
     color: #65676b;
 }
+
+.wrapper .content .content-middle .post .container .post-title .title-info .name .primary:hover,
+.wrapper .content .content-middle .post .container .post-title .title-info .name .sub:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.wrapper .content .content-middle .post .container .post-title .title-option {
+    padding: 15px;
+}
+
+.wrapper .content .content-middle .post .container .post-title .title-option i {
+    font-size: 18px;
+    color: #65676b;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.wrapper .content .content-middle .post .container .post-title .title-option i:hover {
+    background-color: #e4e6eb;
+    cursor: pointer;
+}
+
+.wrapper .content .content-middle .post .container .post-content {
+    padding: 0 15px;
+}
+
+.wrapper .content .content-middle .post .container .post-content p {
+    margin: 0;
+}
+
+.wrapper .content .content-middle .post .container .post-tag {
+    padding: 15px;
+}
+
+.wrapper .content .content-middle .post .container .post-tag a {
+    color: #1877F2;
+    text-decoration: none;
+}
+
+.wrapper .content .content-middle .post .container .post-tag a:hover {
+    text-decoration: underline;
+}
+
+.wrapper .content .content-middle .post .container .post-img img {
+    width: 100%;
+    display: block;
+}
+
+.wrapper .content .content-middle .post .container .post-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.wrapper .content .content-middle .post .container .post-info .info-left,
+.wrapper .content .content-middle .post .container .post-info .info-right {
+    display: flex;
+    font-size: 15px;
+    color: #65676b;
+    padding: 15px;
+}
+
+.wrapper .content .content-middle .post .container .post-info .number {
+    margin-left: 5px;
+}
+
+.wrapper .content .content-middle .post .container .post-info .number:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.wrapper .content .content-middle .post .container .post-btn {
+    padding: 0 15px;
+}
+
+.wrapper .content .content-middle .post .container .post-btn .button {
+    display: flex;
+    padding: 5px 0px;
+    border-top: 1px solid silver;
+    justify-content: space-between;
+}
+
+.wrapper .content .content-middle .post .container .post-btn .button .btn-like,
+.wrapper .content .content-middle .post .container .post-btn .button .btn-cmt,
+.wrapper .content .content-middle .post .container .post-btn .button .btn-share {
+    display: flex;
+    padding: 10px 70px;
+    border-radius: 5px;
+}
+
+.wrapper .content .content-middle .post .container .post-btn .button .btn-like:hover,
+.wrapper .content .content-middle .post .container .post-btn .button .btn-cmt:hover,
+.wrapper .content .content-middle .post .container .post-btn .button .btn-share:hover {
+    background-color: #e4e6eb;
+    cursor: pointer;
+}
+
+.wrapper .content .content-middle .post .container .post-btn .button .btn-name {
+    margin-left: 5px;
+}
+
+.wrapper .content .content-middle .post .container .post-btn .button .btn-like i {
+    background-image: url(https://static.xx.fbcdn.net/rsrc.php/v3/y2/r/w41FOqOOxdR.png);
+    background-position: 0px -322px;
+    background-size: auto;
+    width: 18px;
+    height: 18px;
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+
+.wrapper .content .content-middle .post .container .post-btn .button .btn-cmt i {
+    background-image: url(https://static.xx.fbcdn.net/rsrc.php/v3/y2/r/w41FOqOOxdR.png);
+    background-position: 0px -284px;
+    background-size: auto;
+    width: 18px;
+    height: 18px;
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+
+.wrapper .content .content-middle .post .container .post-btn .button .btn-share i {
+    background-image: url(https://static.xx.fbcdn.net/rsrc.php/v3/y2/r/w41FOqOOxdR.png);
+    background-position: 0px -341px;
+    background-size: auto;
+    width: 18px;
+    height: 18px;
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+
 /* Content Right */
 .wrapper .content .content-right {
     width: 23.5%;
+    position: fixed;
+    right: 0;
 }
