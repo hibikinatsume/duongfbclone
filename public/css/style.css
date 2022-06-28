@@ -459,9 +459,9 @@ body {
 .wrapper .content .content-middle .feed .next {
     position: absolute;
     border: 1px solid silver;
-    color: silver;
+    color: #65676b;
     border-radius: 50%;
-    padding: 8px 10px;
+    padding: 10px 10px;
     background-color: white;
     top: 18%;
     left: 73.1%;
@@ -598,6 +598,24 @@ body {
     border: 2px solid #e7f3ff;
     border-radius: 20px;
     padding: 8px 12px;
+}
+
+.wrapper .content .content-middle .room .container .room-arrow {
+    position: absolute;
+    left: 70.5%;
+    top: 54%;
+}
+
+.wrapper .content .content-middle .room .container .room-arrow i:hover {
+    cursor: pointer;
+    background-color: #e4e6eb;
+}
+
+.wrapper .content .content-middle .room .container .room-arrow i {
+    border: 1px solid silver;
+    border-radius: 50%;
+    padding: 15px 20px;
+    color: #606770;
 }
 
 .wrapper .content .content-middle .room .container .btn-room:hover {
