@@ -67,15 +67,3 @@ function hideEditButton() {
     const btnEdit = document.getElementById("btn-edit");
     btnEdit.style.display = 'none';
 }
-
-// Show tag name
-function showTagName() {
-    const tagName = document.getElementById("text-next");
-    tagName.style.visibility = 'visible';
-}
-
-// Hide tag name
-function hideTagName() {
-    const tagName = document.getElementById("text-next");
-    tagName.style.visibility = 'hidden';
-}

@@ -1,0 +1,325 @@
+@media all and (max-width: 1920px)  and (min-width: 1601px) {
+    .wrapper .content .content-middle {
+        width: 40%;
+    }
+
+    .wrapper .content .content-right {
+        height: 950px;
+    }
+
+    .wrapper .content .content-left {
+        height: auto;
+    }
+
+    .wrapper .content .content-right .birthday .detail .text {
+        padding: 11px 3px;
+    }
+
+    .wrapper .header .header-middle .main-menu .text-home {
+        left: 33.2%;
+    }
+
+    .wrapper .header .header-middle .main-menu .text-watch {
+        left: 41.2%;
+    }
+
+    .wrapper .header .header-middle .main-menu .text-market {
+        left: 48%;
+    }
+
+    .wrapper .header .header-middle .main-menu .text-group {
+        left: 56%;
+    }
+
+    .wrapper .header .header-middle .main-menu .text-game {
+        left: 63%;
+    }
+
+    .wrapper .header .header-right .right-menu .text-menu {
+        right: 7.6%;
+    }
+
+    .wrapper .header .header-right .right-menu .text-mess {
+        right: 4%;
+    }
+
+    .wrapper .header .header-right .right-menu .text-noti {
+        right: 1.5%;
+    }
+
+    .wrapper .content .content-left .footer {
+        margin-top: 170px;
+    }
+}
+
+@media all and (max-width: 1600px) and (min-width: 1441px) {
+    .wrapper .content .content-middle {
+        width: 48%;
+    }
+
+    .wrapper .content .content-right {
+        height: 768px;
+    }
+
+    .wrapper .content .content-left {
+        height: 768px;
+    }
+
+    .wrapper .content .content-left .footer {
+        margin-top: 0px;
+    }
+
+    .wrapper .header .header-middle .main-menu .text-home {
+        left: 29.8%;
+    }
+
+    .wrapper .header .header-middle .main-menu .text-watch {
+        left: 39.4%;
+    }
+
+    .wrapper .header .header-middle .main-menu .text-market {
+        left: 47.2%;
+    }
+
+    .wrapper .header .header-middle .main-menu .text-group {
+        left: 57.2%;
+    }
+
+    .wrapper .header .header-middle .main-menu .text-game {
+        left: 65.8%;
+    }
+
+    .wrapper .header .header-right .right-menu .text-menu {
+        right: 9.4%;
+    }
+}
+
+@media all and (max-width: 1366px) {
+    .wrapper .content .content-right,
+    .wrapper .content .content-left {
+        height: 637px;
+    }
+
+    .wrapper .content .content-middle .post .container .post-btn .button .btn-like, .wrapper .content .content-middle .post .container .post-btn .button .btn-cmt, .wrapper .content .content-middle .post .container .post-btn .button .btn-share {
+        padding: 10px 68px;
+    }
+
+    .wrapper .content .content-right .birthday .detail .text {
+        padding: 3px;
+        margin-top: 4px;
+        font-size: 12px;
+    }
+
+    .wrapper .content .content-middle .feed .next {
+        top: 19%;
+    }
+
+    .wrapper .content .content-middle .feed #text-next {
+        top: 24.5%;
+    }
+
+    .wrapper .content .content-middle .room .container .room-arrow {
+        left: 69.5%;
+        top: 60.5%;
+    }
+
+    .wrapper .header .header-middle .main-menu .text-home {
+        left: 26.5%;
+    }
+
+    .wrapper .header .header-middle .main-menu .text-watch {
+        left: 37.6%;
+    }
+
+    .wrapper .header .header-middle .main-menu .text-market {
+        left: 46.6%;
+    }
+
+    .wrapper .header .header-middle .main-menu .text-group {
+        left: 58.4%;
+    }
+
+    .wrapper .header .header-middle .main-menu .text-game {
+        left: 68.6%;
+    }
+
+    .wrapper .content .content-middle .create .option .btn-option .title {
+        padding: 4px 2px;
+        font-size: 13px;
+    }
+}
+
+@media all and (max-width: 1280px) {
+    .wrapper .content .content-right, .wrapper .content .content-left {
+        height: 588px;
+    }
+
+    .wrapper .content .content-middle .post .container .post-btn .button .btn-like, .wrapper .content .content-middle .post .container .post-btn .button .btn-cmt, .wrapper .content .content-middle .post .container .post-btn .button .btn-share {
+        padding: 10px 60px;
+    }
+
+    .wrapper .content .content-right .birthday .detail .text {
+        padding: 3px;
+        margin-top: 4px;
+        font-size: 12px;
+    }
+
+    .wrapper .content .content-middle .room .container .btn-room .title {
+        font-size: 11px;
+        padding-top: 5px;
+    }
+
+    .wrapper .content .content-middle .room .container .room-arrow {
+        left: 69.5%;
+        top: 69.5%;
+        display: none;
+    }
+
+    .wrapper .content .content-middle .feed .next {
+        top: 21%;
+        left: 72.5%;
+    }
+
+    .wrapper .content .content-middle .feed #text-next {
+        top: 27%;
+        left: 70%;
+    }
+
+    .wrapper .header .header-middle .main-menu .text-home {
+        left: 25%;
+    }
+
+    .wrapper .header .header-middle .main-menu .text-watch {
+        left: 36.8%;
+    }
+
+    .wrapper .header .header-middle .main-menu .text-market {
+        left: 46.5%;
+    }
+
+    .wrapper .header .header-middle .main-menu .text-group {
+        left: 59%;
+    }
+
+    .wrapper .header .header-middle .main-menu .text-game {
+        left: 69.6%;
+    }
+
+    .wrapper .header .header-right .right-menu .text-menu {
+        right: 11.5%;
+    }
+
+    .wrapper .header .header-right .right-menu .text-mess {
+        right: 6.2%;
+    }
+
+    .wrapper .header .header-right .right-menu .text-noti {
+        right: 2.5%;
+    }
+
+    .wrapper .content .content-middle .create .option .btn-option .title {
+        padding: 6px 2px;
+        font-size: 11px;
+    }
+}
+
+@media all and (max-width: 1024px) {
+    .wrapper .content .content-right,
+    .wrapper .content .content-left,
+    .wrapper .header .header-left .search,
+    .wrapper .header .header-right #menu-page,
+    .wrapper .header .header-right #mess-page,
+    .wrapper .header .header-right #noti-page,
+    .wrapper .content .content-middle .room .container .room-arrow {
+        display: none;
+    }
+
+    .wrapper .content .content-middle {
+        width: 100%;
+    }
+
+    .wrapper .content .content-middle .feed .next {
+        top: 20%;
+        left: 95.2%;
+    }
+
+    .wrapper .content .content-middle .create .option .btn-option {
+        justify-content: space-around;
+    }
+
+    .wrapper .content .content-middle .feed #text-next {
+        top: 26%;
+        left: 90%;
+    }
+
+    .wrapper .header .header-middle .main-menu .text-home {
+        left: 18.8%;
+    }
+
+    .wrapper .header .header-middle .main-menu .text-watch {
+        left: 33.3%;
+    }
+
+    .wrapper .header .header-middle .main-menu .text-market {
+        left: 45.6%;
+    }
+
+    .wrapper .header .header-middle .main-menu .text-group {
+        left: 61%;
+    }
+
+    .wrapper .header .header-middle .main-menu .text-game {
+        left: 74.6%;
+    }
+}
+
+@media all and (max-width: 800px) {
+    .wrapper .content .content-right,
+    .wrapper .content .content-left,
+    .wrapper .header .header-left .search,
+    .wrapper .header .header-right #menu-page,
+    .wrapper .header .header-right #mess-page,
+    .wrapper .header .header-right #noti-page {
+        display: none;
+    }
+
+    .wrapper .content .content-middle {
+        width: 100%;
+    }
+
+    .wrapper .content .content-middle .feed .next {
+        top: 25%;
+        left: 94%;
+    }
+
+    .wrapper .content .content-middle .feed #text-next {
+        top: 32%;
+        left: 91%;
+    }
+
+    .wrapper .content .content-middle .room .container .room-arrow {
+        left: 88.5%;
+        top: 28%;
+        display: none;
+    }
+
+    .wrapper .header .header-middle .main-menu .text-home {
+        left: 9.5%;
+    }
+
+    .wrapper .header .header-middle .main-menu .text-watch {
+        left: 29.2%;
+    }
+
+    .wrapper .header .header-middle .main-menu .text-market {
+        left: 44.5%;
+    }
+
+    .wrapper .header .header-middle .main-menu .text-group {
+        left: 64.5%;
+    }
+
+    .wrapper .header .header-middle .main-menu .text-game {
+        left: 81%;
+    }
+}
