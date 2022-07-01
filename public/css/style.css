@@ -814,4 +814,163 @@ body {
     width: 23.5%;
     position: fixed;
     right: 0;
+    height: 769px;
+    overflow: hidden;
+}
+
+.wrapper .content .content-right:hover {
+    overflow-y: scroll;
+}
+
+.wrapper .content .content-right .intro {
+    padding: 10px 15px;
+    color: #65676b
+}
+
+.wrapper .content .content-right .intro h2 {
+    font-size: 1.0625rem;
+    font-weight: 600;
+    border-bottom: 1px solid silver;
+    padding: 10px 0px;
+    margin: 0;
+    padding-bottom: 20px;
+}
+
+.wrapper .content .content-right .birthday {
+    padding: 0px 15px;
+}
+
+.wrapper .content .content-right .birthday h2 {
+    font-size: 1.0625rem;
+    font-weight: 600;
+    padding: 10px 0px;
+    margin: 0;
+    color: #65676b
+}
+.wrapper .content .content-right .birthday i {
+    height: 36px;
+    width: 36px;
+    background-image: url(https://static.xx.fbcdn.net/rsrc.php/v3/yZ/r/AClaY5sOKo-.png);
+    background-position: 0px 0px;
+    background-size: auto;
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+
+.wrapper .content .content-right .birthday .detail {
+    display: flex;
+    font-size: 15px;
+    padding: 10px 5px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+
+.wrapper .content .content-right .birthday .detail .text {
+    padding: 3px;
+    margin-left: 5px;
+}
+
+.wrapper .content .content-right .birthday .detail:hover {
+    cursor: pointer;
+    background-color: #e4e6eb;
+}
+
+.wrapper .content .content-right .birthday .border {
+    border-bottom: 1px solid silver;
+}
+
+.wrapper .content .content-right .contact {
+    padding: 0px 15px;
+}
+
+.wrapper .content .content-right .contact .title {
+    display: flex;
+    justify-content: space-between;
+}
+
+.wrapper .content .content-right .contact .title h2 {
+    font-size: 1.0625rem;
+    font-weight: 600;
+    padding: 10px 0px;
+    margin: 0;
+    color: #65676b    
+}
+
+.wrapper .content .content-right .contact .title .button {
+    display: flex;
+}
+
+.wrapper .content .content-right .contact .title .button div {
+    padding: 5px 2px;
+}
+
+.wrapper .content .content-right .contact .title .button div i {
+    border-radius: 50%;
+    padding: 7px;
+    font-size: 13px;
+    color: #65676b;
+}
+
+.wrapper .content .content-right .contact .title .button div i:hover {
+    cursor: pointer;
+    background-color: #e4e6eb;
+}
+
+.wrapper .content .content-right .contact .friends {
+    border-bottom: 1px solid silver;
+}
+
+.wrapper .content .content-right .contact .friends .show {
+    display: flex;
+    padding: 10px 5px;
+    border-radius: 10px;
+}
+
+.wrapper .content .content-right .contact .friends .show:hover {
+    background-color: #e4e6eb;
+    cursor: pointer;
+}
+
+.wrapper .content .content-right .contact .friends .show .name {
+    padding: 9px;
+    font-weight: 600;
+}
+
+.wrapper .content .content-right .group-chat {
+    padding: 0px 15px;
+    margin-bottom: 20px;
+}
+
+.wrapper .content .content-right .group-chat h2 {
+    font-size: 1.0625rem;
+    font-weight: 600;
+    padding: 10px 0px;
+    margin: 0;
+    color: #65676b;
+}
+
+.wrapper .content .content-right .group-chat .group {
+    display: flex;
+    padding: 10px 5px;
+    border-radius: 10px;
+}
+
+.wrapper .content .content-right .group-chat .group:hover {
+    background-color: #e4e6eb;
+    cursor: pointer;
+}
+
+.wrapper .content .content-right .group-chat .group img {
+    border-radius: 50%;
+}
+
+.wrapper .content .content-right .group-chat .group .name {
+    padding: 9px;
+    font-weight: 600;
+}
+
+.wrapper .content .content-right .group-chat .group i {
+    padding: 10px 11px;
+    border-radius: 50%;
+    background-color: #e4e6eb;
 }
